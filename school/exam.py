@@ -1,3 +1,5 @@
-Total_Marks=100
-class Exam:
-    pass
+# Total_Marks=100
+# class Exam:
+#     pass
+
+

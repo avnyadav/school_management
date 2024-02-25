@@ -47,7 +47,7 @@ class Building:
     
 #IS a Relation because School is a building 
 class School(Building): #Inheritance Reusability
-    teacher = Teacher()
+    principal = Principal()
     name:str = "Shivaji Vidya Mandir High School"
     def __repr__(self) -> str:
         return f"(Name={self.name}\nlocation={self.location})"
@@ -56,9 +56,10 @@ class School(Building): #Inheritance Reusability
 # ----------------------------------------------------------------------
 
 class Teacher:
-    student = Student()
+    def__init__(self)
     teach_name:str = "Abcd"
     teach_address:str = "Address"
+    teach_qualification:str = "M.COM"
     teach_id:int = 123
     teach_subject:str = ["Hindi","English","Math","History","Science","Geography","Information Tecnology"]
 
@@ -70,6 +71,12 @@ class Student:
     student_name:str = "Ashish S Yadav"
     student_age:int = 27
     student_address:str = "Malad East"
+    student_standard:str = "5th Class"
     
 
-    
+class Principal:
+    teacher = Teacher()
+    printcipal_name:str = "Avnish Yadav"
+    principal_qualification:str = "XYZ"
+    principal_address:str = "ajkdjha"
+
