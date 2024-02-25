@@ -53,31 +53,3 @@ class School(Building): #Inheritance Reusability
         return f"(Name={self.name}\nlocation={self.location})"
     
 
-# ----------------------------------------------------------------------
-
-class Teacher:
-    def__init__(self)
-    teach_name:str = "Abcd"
-    teach_address:str = "Address"
-    teach_qualification:str = "M.COM"
-    teach_id:int = 123
-    teach_subject:str = ["Hindi","English","Math","History","Science","Geography","Information Tecnology"]
-
-
-
-
-
-class Student:
-    student_name:str = "Ashish S Yadav"
-    student_age:int = 27
-    student_address:str = "Malad East"
-    student_standard:str = "5th Class"
-    
-
-class Principal:
-    
-    def __init__(self)
-    printcipal_name:str = "Avnish Yadav"
-    principal_qualification:str = "XYZ"
-    principal_address:str = "ajkdjha"
-
