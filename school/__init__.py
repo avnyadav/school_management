@@ -4,8 +4,8 @@ from typing import List
 class Room:
     doors:int=2
     window:int=4
-    bench:int=20
-    bench_seating_capacity:int=2
+    bench:int  = 20
+    bench_seating_capacity:int = 2
 
 
 #HAS a relation because floor has a room
