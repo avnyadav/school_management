@@ -34,5 +34,10 @@ git pull origin main --allow-unrelated-histories
 
 
 ```
+git clone https://github.com/avnyadav/school_management.git
+```
+
+
+```
 git push origin main
 ```
