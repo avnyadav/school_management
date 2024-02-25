@@ -75,7 +75,8 @@ class Student:
     
 
 class Principal:
-    teacher = Teacher()
+    
+    def __init__(self)
     printcipal_name:str = "Avnish Yadav"
     principal_qualification:str = "XYZ"
     principal_address:str = "ajkdjha"
