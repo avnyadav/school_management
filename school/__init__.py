@@ -4,8 +4,8 @@ from typing import List
 class Room:
     doors:int=2
     window:int=4
-    bench:20
-    bench_seating_capacity:2
+    bench:int  = 20
+    bench_seating_capacity:int = 2
 
 
 #HAS a relation because floor has a room
@@ -47,9 +47,8 @@ class Building:
     
 #IS a Relation because School is a building 
 class School(Building): #Inheritance Reusability
-    principal = Principal()
+
     name:str = "Shivaji Vidya Mandir High School"
     def __repr__(self) -> str:
         return f"(Name={self.name}\nlocation={self.location})"
-    
-
+ 
