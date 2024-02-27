@@ -9,7 +9,8 @@ class Room:
 
 
 #HAS a relation because floor has a room
-class Floor: #Composition
+#Composition
+class Floor: 
     room = Room()
     def __init__(self,n_room,floor_no) -> None:
         self.n_room=n_room
