@@ -51,4 +51,4 @@ class School(Building): #Inheritance Reusability
     name:str = "Shivaji Vidya Mandir High School"
     def __repr__(self) -> str:
         return f"(Name={self.name}\nlocation={self.location})"
-    
+ 
