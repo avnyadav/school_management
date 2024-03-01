@@ -1,6 +1,7 @@
-from school.teacher import Teacher 
+from school.staff import Staff
 
 
+if __name__ == "__main__":
+    s = Staff()
 
-if __name__=="__main__":
-    teacher = Teacher()
+print(s.staf_name)
