@@ -7,3 +7,10 @@ class Staff:
         self.staf_gender:str = staf_gender
         self.staf_salary:int = staf_salary
         self.staf_work:str = staf_work
+    
+    # var = staf_name = "Ashish Yadav"
+    # print(var)
+
+    # var1 = Staff('Ashish','Malad',123,'Male',42321,'Cleaning')
+
+    # print(var1,staf_name)

@@ -1,6 +1,5 @@
 
 class Teacher:
-    #class variable
 
 
     def __init__(self,teach_id,teach_name,teach_address,teach_subject,teach_salary):

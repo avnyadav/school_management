@@ -1,17 +1,18 @@
 
 class Student:
-    total_marks = 600
-    sub = Subject()
+    
 
-    def __init__(self,student_name,student_age,student_address,student_grade)
-        self.student_name:str = student_name
+    def __init__(self,std_fname,std_Mname,std_lname,student_age,student_address,student_standard,student_grade):
+        self.std_fname:str = std_fname
+        self.std_Mname:str = std_Mname
+        self.std_lname:str = std_lname
         self.student_age:int = student_age
         self.student_address:str = student_address
         self.student_standard:str = student_standard
         self.student_grade:str = student_grade
 
-    @classmethod
-    def get_grade(cls,percentage):
+    @staticmethod
+    def get_grade():
         if percentage > 80:
             return "O"
         
